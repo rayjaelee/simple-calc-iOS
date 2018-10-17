@@ -29,6 +29,7 @@ class ViewController: UIViewController {
             case -5:
                 answerText += " % "
             case -6:
+                lblEquation.text = answerText + " FACT "
                 answerText = displayMod(num: Int(lblAnswer.text!)!)
             case -7:
                 answerText += " AVG "
